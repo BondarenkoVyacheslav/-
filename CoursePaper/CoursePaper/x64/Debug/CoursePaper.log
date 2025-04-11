@@ -1,0 +1,43 @@
+﻿  main.cpp
+C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\matplotlibcpp.h(174,17): error C4996: 'Py_SetProgramName': deprecated in 3.11
+  (compiling source file 'main.cpp')
+  
+C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\matplotlibcpp.h(182,17): error C4996: 'PySys_SetArgv': deprecated in 3.11
+  (compiling source file 'main.cpp')
+  
+C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\main.cpp(70,14): error C2661: 'matplotlibcpp::plot': no overloaded function takes 4 arguments
+  C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\matplotlibcpp.h(2871,10):
+  could be 'bool matplotlibcpp::plot(const A &,const B &,const std::string &,Args...)'
+  	C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\main.cpp(70,14):
+  	'initializer list': is not a valid template argument for 'Args'
+  C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\matplotlibcpp.h(2868,10):
+  or       'bool matplotlibcpp::plot(void)'
+  	C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\main.cpp(70,14):
+  	'bool matplotlibcpp::plot(void)': expects 0 arguments - 4 provided
+  C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\matplotlibcpp.h(1823,10):
+  or       'bool matplotlibcpp::plot(const std::vector<_Ty,std::allocator<_Ty>> &,const std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>> &)'
+  	C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\main.cpp(70,14):
+  	'bool matplotlibcpp::plot(const std::vector<_Ty,std::allocator<_Ty>> &,const std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>> &)': expects 2 arguments - 4 provided
+  C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\matplotlibcpp.h(1815,10):
+  or       'bool matplotlibcpp::plot(const std::vector<_Ty,std::allocator<_Ty>> &,const std::string &)'
+  	C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\main.cpp(70,14):
+  	'bool matplotlibcpp::plot(const std::vector<_Ty,std::allocator<_Ty>> &,const std::string &)': expects 2 arguments - 4 provided
+  C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\matplotlibcpp.h(1363,10):
+  or       'bool matplotlibcpp::plot(const std::vector<_Ty,std::allocator<_Ty>> &,const std::vector<NumericY,std::allocator<_Other>> &,const std::string &)'
+  	C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\main.cpp(70,14):
+  	'bool matplotlibcpp::plot(const std::vector<_Ty,std::allocator<_Ty>> &,const std::vector<NumericY,std::allocator<_Other>> &,const std::string &)': expects 3 arguments - 4 provided
+  C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\matplotlibcpp.h(443,10):
+  or       'bool matplotlibcpp::plot(const std::vector<_Ty,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &,const std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>> &)'
+  	C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\main.cpp(70,14):
+  	'bool matplotlibcpp::plot(const std::vector<_Ty,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &,const std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>> &)': expects 3 arguments - 4 provided
+  C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\main.cpp(70,14):
+  while trying to match the argument list '(const std::vector<double,std::allocator<double>>, const std::vector<double,std::allocator<double>>, const char [3], initializer list)'
+  
+C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\main.cpp(71,14): error C2672: 'matplotlibcpp::fill_between': no matching overloaded function found
+  C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\matplotlibcpp.h(826,10):
+  could be 'bool matplotlibcpp::fill_between(const std::vector<_Ty,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &,const std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>> &)'
+  	C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\main.cpp(71,14):
+  	'bool matplotlibcpp::fill_between(const std::vector<_Ty,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &,const std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>> &)': could not deduce template argument for 'const std::vector<_Ty,std::allocator<_Ty>> &' from 'int'
+  
+C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\main.cpp(82,31): error C2065: 'M_PI': undeclared identifier
+C:\Desktop\c++_work\OOP2\CoursePaper\CoursePaper\main.cpp(89,29): error C2065: 'M_PI': undeclared identifier
